@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gemstone</title>
     <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/Main-Header-css.css">
   </head>
   <body>
     <h1>Gemstone</h1>
+    <!---------------------------------------------------- Aashana Khandelwal --------------------------------------------------------->
+    <div class="header_navbar">
+      <img id="header_image" src="../Images/logo design.PNG" alt="">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Login">Login</a></li>
+          <li><a href="#Collections">Collections</a></li>
+          <li><a href="#WishList">WishList</a></li>
+          <li><a href="#">Cart</a></li>
+
+      </ul>
+
+
+  </div>
+  <br>
+  <div class="header_container">
+      <div class="header_slideshow-container">
+
+      <div class="header_mySlides header_fade">
+        <div class="header_numbertext"></div>
+        <img src="../Images/1.jpg" style="width:100%">
+        <div class="header_text"></div>
+      </div>
+
+      <div class="header_mySlides header_fade">
+          <div class="header_numbertext"></div>
+          <img src="../Images/04.jpg" style="width:90%" height="70%">
+          <div class="header_text"></div>
+        </div>
+    
+      <div class="header_mySlides header_fade">
+        <div class="header_numbertext"></div>
+        <img src="../Images/2.jpg" style="width:100%">
+        <div class="header_text"></div>
+      </div>
+    
+      <div class="header_mySlides header_fade">
+        <div class="header_numbertext"></div>
+        <img src="../Images/3.jpg" style="width:100%">
+        <div class="header_text"></div>
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="header_prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="header_next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="header_dot" onclick="currentSlide(1)"></span>
+      <span class="header_dot" onclick="currentSlide(2)"></span>
+      <span class="header_dot" onclick="currentSlide(3)"></span>
+      <span class="header_dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
 
     <!---------------------------------------- Counter Section ----------------------------------------------------- -->
     <!-------------------------------------------------- Aditya Sarswat--------------------------------------------------------------- -->
@@ -77,4 +137,36 @@
       </div>
     </div>
   </body>
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  // Next/previous controls
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+  
+  // Thumbnail image controls
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  }
+  </script>
+  
+  
 </html>
