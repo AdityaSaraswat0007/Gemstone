@@ -77,6 +77,9 @@ padding: 5vh;
 animation-duration: 2s;
 transition: width 2s, height 2s, transform 2s;
 }
+.header_myslides{
+    display: none;
+}
 
 /* Next & previous buttons */
 .header_prev, .header_next {
