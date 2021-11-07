@@ -5,46 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../CSS/contactUs.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+    <link rel="stylesheet" href="../CSS/feedback.css" />
+    <link rel="stylesheet" href="../CSS/contactUs.css">
+    </head>
 <body>
-    <section id="contact">
+  <h1 class="section-header">Contact</h1>
+    <div id="contact">
   
-        <h1 class="section-header">Contact</h1>
         
-        <div class="contact-wrapper">
         
-        <!-- Left contact page --> 
-          
-          <form id="contact-form" class="form-horizontal" role="form">
-             
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
-              </div>
+        
+        <div class="feedback_container">
+          <form>
+            <h1>Give Your Feedback</h1>
+            <div class="feedback_id">
+              <input type="text" placeholder="Full Name" />
+              <i class="fa fa-user"></i>
             </div>
-      
-            <div class="form-group">
-              <div class="col-sm-12">
-                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
-              </div>
+            <div class="feedback_id">
+              <input type="email" placeholder="EMail Address" />
+              <i class="fa fa-envelope"></i>
             </div>
-      
-            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-            
-            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-              <div class="alt-send-button">
-                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-              </div>
-            
-            </button>
-            
+            <textarea
+              cols="15"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+            <button>Send</button>
           </form>
+        </div>
+        
+        
+        <!--  -->
           
         <!-- Left contact page --> 
           
-            <div class="direct-contact-container">
+           
+        <div class="direct-contact-container">
       
               <ul class="contact-list">
                 <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Mathura, Uttar Pradesh</span></i></li>
@@ -78,7 +76,7 @@
           
         </div>
         
-      </section>  
+      </div>  
         
         
 </body>
