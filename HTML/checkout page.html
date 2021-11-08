@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemstone</title>
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/Main-Header-css.css">
+    <link rel="stylesheet" href="../CSS/mainfooter.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      .checkout1
+      {
+        width:100%;
+        
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        justify-content: center;
+        background-color: burlywood;
+        text-align: center;
+      }
+      .checkoutsec1
+      {
+        min-width: 50%;
+        float: left;
+        padding: 5px;
+        background-color: rgb(250, 199, 162);
+      
+            
+      }
+      .checkoutsec1 .chooseaddress
+      {
+        padding: 10px;
+        margin:5px;
+       background-color: rgb(148, 148, 219);
+       min-height: 250px;
+      }
+      .chooseaddress ul
+      {
+        
+        margin-top: 20px;
+        list-style:circle;
+
+      }
+      .chooseaddress ul li
+      {
+       
+
+      }
+      .checkoutsec1 .enternewaddress
+      {
+        padding: 10px;
+        margin:5px;
+        background-color: darkgray;
+        min-height: 500px;
+        text-align: left;
+
+      }
+     
+      .yourorder
+      {
+        min-width: 50%;
+        padding: 5px;
+        margin: 5px;
+       float: right;
+       min-height: 750px;
+
+      }
+
+
+    </style>
+    
+  </head>
+  <body>
+    
+    <!---------------------------------------------------- Aashana Khandelwal --------------------------------------------------------->
+    <div class="header_navbar">
+      <img id="header_image" src="../Images/logo design.PNG" alt="">
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Login">Login</a></li>
+          <li><a href="#Collections">Collections</a></li>
+          <li><a href="#WishList">WishList</a></li>
+          <li><a href="#">Cart</a></li>
+
+      </ul>
+
+
+  </div>
+
+  <br>
+  <br>
+  <br><br><br><br><br>
+ 
+  <h1 style="color: black;">Checkout</h1>
+  <div class="checkout1">
+      
+      <div class="checkoutsec1">
+          <div class="chooseaddress">
+            <h2  style="color: black;">CHOOSE ADDRESS</h2>
+              <ul>
+                  <li>E-199 kalka ji New Delhi infront of Sanatan Dharam Mandir New Delhi 110019</li>
+                  <li>E-199 kalka ji New Delhi infront of Sanatan Dharam Mandir New Delhi 110019</li>
+                  <li>E-199 kalka ji New Delhi infront of Sanatan Dharam Mandir New Delhi 110019</li>
+              </ul>
+          </div>
+
+          <div class="enternewaddress">
+            <h2 style="color: black;">ENTER NEW ADDRESS</h2>
+
+            <form action="">
+
+              <div class="country-select">
+                <label>Country <span class="required"><b>:</b></span></label>
+                <select>
+                  <option value="volvo">bangladesh</option>
+                  <option value="saab">Algeria</option>
+                  <option value="mercedes">Afghanistan</option>
+                  <option value="audi">Ghana</option>
+                  <option value="audi2">Albania</option>
+                  <option value="audi3">Bahrain</option>
+                  <option value="audi4">Colombia</option>
+                  <option value="audi5">Dominican Republic</option>
+                </select> 										
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>First Name <span class="required"><b>:</b></span></label>										
+                <input type="text" placeholder="" />
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>Last Name <span class="required"><b>:</b></span></label>										
+                <input type="text" placeholder="" />
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>Address <span class="required"><b>:</b></span></label>
+                <input type="text" placeholder="Street address" />
+              </div>
+              <br>
+              <div class="checkout-form-list">									
+                <input type="text" placeholder="Apartment, suite, unit etc. (optional)" />
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>Town / City <span class="required"><b>:</b></span></label>
+                <input type="text" placeholder="Town / City" />
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>State / County <span class="required"><b>:</b></span></label>										
+                <input type="text" placeholder="" />
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>Postcode / Zip <span class="required"><b>:</b></span></label>										
+                <input type="text" placeholder="Postcode / Zip" />
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>Email Address <span class="required"><b>:</b></span></label>										
+                <input type="email" placeholder="" />
+              </div>
+              <br>
+              <div class="checkout-form-list">
+                <label>Phone  <span class="required"><b>:</b></span></label>										
+                <input type="text" placeholder="Postcode / Zip" />
+              </div>
+              <br>
+              <div class="checkout-form-list create-acc">	
+                <input id="cbox" type="checkbox" />
+                <label>Create an account?</label>
+              </div>
+              <div id="cbox_info" class="checkout-form-list create-account">
+                <p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+                <label>Account password  <span class="required"><b>:</b></span></label>
+                <input type="password" placeholder="password" />	
+              </div>
+
+
+             
+            </form>
+            
+          </div>
+      </div>
+
+      <div class="yourorder">
+          <h2>YOUR ORDER</h2>
+
+              <div class="your-order-table table-responsive">
+
+                <table>
+                  <thead>
+                    <tr>
+                      <th class="product-name">Product</th>
+                      <th class="product-total">Total</th>
+                    </tr>							
+                  </thead>
+
+                  <tbody>
+                    <tr class="cart_item">
+                      <td class="product-name">
+                        Vestibulum suscipit <strong class="product-quantity"> x 1</strong>
+                      </td>
+                      <td class="product-total">
+                        <span class="amount">Rs165.00</span>
+                      </td>
+                    </tr>
+
+
+                    <tr class="cart_item">
+                      <td class="product-name">
+                        Vestibulum dictum magna	<strong class="product-quantity"> x 1</strong>
+                      </td>
+                      <td class="product-total">
+                        <span class="amount">Rs50.00</span>
+                      </td>
+                    </tr>
+
+
+                  </tbody>
+
+
+                  <tfoot>
+
+                    <tr class="cart-subtotal">
+                      <th>Cart Subtotal</th>
+                      <td><span class="amount">Rs215.00</span></td>
+                    </tr>
+                                          
+                    <tr class="cart-subtotal">
+                      <th>GST IN</th>
+                      <td><span class="amount">28%</span></td>
+                    </tr>
+                                          
+                    <tr class="shipping">
+                      <th>Shipping</th>
+                      <td>
+                        <ul>
+                          <li>
+                            <input type="radio" />
+                            <label>
+                              Flat Rate: <span class="amount">Rs7.00</span>
+                            </label>
+                          </li>
+                          <li>
+                            <input type="radio" />
+                            <label>Free Shipping:</label>
+                          </li>
+                          <li></li>
+                        </ul>
+                      </td>
+                    </tr>
+
+
+                    <tr class="order-total">
+                      <th>Order Total</th>
+                      <td><strong><span class="amount">Rs215.00</span></strong>
+                      </td>
+                    </tr>		
+                    
+                    
+                  </tfoot>
+                </table>
+              </div>
+              
+            
+          </div>
+
+
+          
+      </div>
+  </div>
+   
+
+    <!-- -----------------------------------------Aman Dutt Sharma ----------------------------->
+    <footer>
+      <div class="footercontent">
+
+        <div class="footertop">
+          <div class="footerlogo-details">
+            <i class="fa fa-slack"></i>
+            <span class="footerlogo_name">GemStone</span>
+          </div>
+
+          <div class="footermedia-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+
+
+        <div class="footerlink-boxes">
+          <ul class="footerbox">
+            <li class="footerlink_name">Company</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Store Locator</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#"></a></li>
+          </ul>
+
+          <ul class="footerbox">
+            <li class="footerlink_name">Services</li>
+            <li><a href="#">Online Purchase</a></li>
+            <li><a href="#">Track orders</a></li>
+            <li><a href="#">Gold rate Today</a></li>
+            <li><a href="#">Easy Installment Plan</a></li>
+          </ul>
+
+          <ul class="footerbox">
+            <li class="footerlink_name">Account</li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Covid 19 and Gemstone</a></li>
+            <li><a href="#">Prefrences</a></li>
+            <li><a href="#">My Cart</a></li>
+          </ul>
+
+          <ul class="footerbox">
+            <li class="footerlink_name">Policy</li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+          </ul>
+
+          <ul class="footerbox input-box">
+            <li class="footerlink_name">Sign up to receive exclusive offers and news</li>
+            <li><input type="text" placeholder="Enter your email"></li>
+            <li><input type="button" value="Sign Up"></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="footerbottom-details">
+        <div class="footerbottom_text">
+          <span class="copyright_text">Copyright © 2021 <a href="#">Gemstone.</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  
+</html>
