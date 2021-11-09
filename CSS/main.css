@@ -102,3 +102,24 @@ h1 {
   visibility: visible;
   opacity: inherit;
 }
+
+#collection_functionality {
+  visibility: hidden;
+  display: flex;
+  height: 0px;
+  float: right;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 0;
+}
+
+#collection_functionality ul {
+  display: flex;
+  top: -10;
+}
+
+#collection_functionality ul div {
+  margin: 2em;
+  z-index: 10;
+}

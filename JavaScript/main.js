@@ -26,3 +26,17 @@ counters.forEach((counter) => {
   updateCount();
 });
 
+function visible() {
+  document.getElementById("collection_functionality").style.transition =
+    "height 1s";
+  document.getElementById("collection_functionality").style.visibility =
+    "visible";
+  document.getElementById("collection_functionality").style.height = "5em";
+  document.getElementById("collection_functionality").style.margin = "2em";
+}
+
+function hide() {
+  document.getElementById("collection_functionality").style.visibility =
+    "hidden";
+  document.getElementById("collection_functionality").style.height = "0em";
+}
