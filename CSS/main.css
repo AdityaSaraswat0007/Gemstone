@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  color: rgb(231, 229, 235);
+  color: #c9b893;
 }
 
 .element {
@@ -14,7 +14,7 @@ h1 {
 
 .counters {
   padding: 20px;
-  background-color: bisque;
+  background-color: white;
 }
 
 .counters .container {
@@ -112,7 +112,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color:white;
 }
 .container_cards {
   position: relative;
@@ -122,21 +122,20 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   padding: 30px;
-  background-color: turquoise;
+  background-color: white;
   margin: 20px;
 }
 .container_cards .card_cards {
   position: relative;
   width: 300px;
   height: 250px;
-  background-color: white;
+  background-color:#e1c8aa;
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 5px 202px black;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -220,10 +219,10 @@ h1 {
   line-height: 35px;
 }
 .slide_left:hover {
-  background-color: rgb(83, 80, 80);
+  background-color: white;
 }
 .slide_right:hover {
-  background-color: rgb(83, 80, 80);
+  background-color: white;
 }
 .partition1 {
   display: flex;

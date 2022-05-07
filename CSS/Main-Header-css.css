@@ -9,7 +9,7 @@
   margin-left: auto;
   background-color: white;
   /*background-image: url(./Images/back.jpg);*/
-  background: linear-gradient(#9796f0, #fbc7d4);
+  background-color: white;
   background-repeat: no repeat;
   background-size: 100% 100%;
 }
@@ -40,7 +40,7 @@
   margin: 0px;
   width: 100%;
   height: 14.0vh;
-  background: linear-gradient(to right, #c33764, #1d2671);
+  background: linear-gradient(to right,#f9f6e6, #ae7f63,#ae7f63);
   /* float: left; */
   display: flex;
   align-items: center;
@@ -202,7 +202,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .header_prev:hover,
 .header_next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background:linear-gradient(to left,#ae7f63, #f9f6e6);
 }
 
 /* Caption text */
@@ -281,7 +281,7 @@ form.example button {
   float: left;
   width: 15%;
   padding: 10px;
-  background: purple;
+  background-color: #ea7532;
   color: white;
   font-size: 17px;
   border: 1px solid grey;

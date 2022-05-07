@@ -11,8 +11,8 @@
 .feedback_container {
   padding: 0;
   /* background: #000; */
-  background: #cad3f9;
-  background: white;
+  background: #fdac49;
+  background:#f8d45e;
   width: 60%;
   margin: auto;
   box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
@@ -54,7 +54,7 @@ form input {
   border: 1px solid #5c5c5c;
   border-radius: 3px;
   /* background: #181817; */
-  background: #e4e8fa;
+  background: #eab26e;
   padding: 0 15px;
   padding-right: 45px;
   font-size: 20px;
@@ -65,7 +65,7 @@ form textarea {
   border: 1px solid #5c5c5c;
   border-radius: 3px;
   /* background: #181817; */
-  background: #e4e8fa;
+  background: #eab26e;
   padding: 5px 15px;
   font-size: 20px;
   width: 100%;
@@ -79,7 +79,7 @@ form button {
   /* background: #00fff0; */
   background: #181817;
   /* color: #222; */
-  color: #00fff0;
+  color:#97633a ;
   padding: 10px;
   width: 100%;
   font-size: 20px;
