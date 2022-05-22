@@ -4,7 +4,7 @@ html, body {
     width: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: whitesmoke;
+    background-color: #c8d8e4;
   }
    
   .container {
@@ -30,7 +30,7 @@ html, body {
     height: 93%;
     position: absolute;
     margin-top: 90px;
-    border: 5px solid black;
+    border: 5px solid #2b6777;
     left: 0;
     top: 0;
     opacity: 0;
@@ -84,7 +84,7 @@ html, body {
   .cable-choose button:hover,
   .cable-choose button:active,
   .cable-choose button:focus {
-    border: 2px solid #86939E;
+    border: 2px solid #2b6777;
     outline: none;
   }
    
