@@ -13,8 +13,9 @@ h1 {
 }
 
 .counters {
-  padding: 20px;
-  background-color: white;
+  /* padding: 20px; */
+  background-color: #c8d8e4;
+  
 }
 
 .counters .container {
@@ -25,7 +26,9 @@ h1 {
   text-align: center;
   grid-template-columns: repeat(3, 1fr);
   background: linear-gradient(to right, gold, silver, #e5e4e2);
+border-color: 2px solid black;
   border-radius: 2em;
+  
 }
 
 /*------------------------------------------------------------------ Ashih Soni--------------------------------------------------------- */
@@ -112,7 +115,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:white;
+  background: color #c8d8e4;
 }
 .container_cards {
   position: relative;
@@ -122,14 +125,14 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   padding: 30px;
-  background-color: white;
+  background-color:#c8d8e4 ;
   margin: 20px;
 }
 .container_cards .card_cards {
   position: relative;
   width: 300px;
   height: 250px;
-  background-color:#e1c8aa;
+  background-color:#2b6777;
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
@@ -166,7 +169,7 @@ h1 {
   margin-top: 200px;
   padding: 10px 20px;
   text-align: center;
-  color: brown;
+  color: white;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;
@@ -233,7 +236,8 @@ h1 {
   display: flex;
   height: 0px;
   float: right;
-  background: black;
+  /* background: #2b6777; */
+  background: #52ab98;
   color: white;
   border-radius: 5px;
   margin-top: 0;
