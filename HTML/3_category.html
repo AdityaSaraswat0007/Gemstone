@@ -5,54 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Category</title>
-    <link rel="stylesheet" href="../CSS/1_category.css">
+     <link rel="stylesheet" href="../CSS/1_category.css"> 
+    <!-- <link rel="stylesheet" href="../CSS/addtocart.css"> -->
+    <!-- <script src="../JavaScript/addtocart.js" async></script> -->
 </head>
 <body>
-    <main class="container">
+  <main class="container">
+ 
+    <!-- Left Column /Image -->
+    <div class="left-column">
+      <!-- <img data-image="black" src="../assets/10.jpg" alt="">
+      <img data-image="blue" src="../assets/10.jpg" alt="">  -->
+      <img data-image="red" class="active" src="../assets/2.jpg" alt=""> 
+    </div>
+   
+    
+    <!-- Right Column -->
+    <div class="right-column">
+   
+      <!-- Product Description -->
+      <div class="product-description">
+        <span>*Weight and Price may vary.</span>
+        <h1 style="font-size: 40px;">Gold Bangle</h1>
+       <p>Elegant Design in 22 Karat Pure Gold</p>
+      </div>
+   
+      <!-- Product Configuration -->
+      <div class="product-configuration">
+   
+        <!-- Product Color
+        <div class="product-color">
+          <span>Color</span>
+   
+          <div class="color-choose">
+            <div>
+              <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+              <label for="red"><span></span></label>
+            </div>
+            <div>
+              <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+              <label for="blue"><span></span></label>
+            </div>
+            <div>
+              <input data-image="black" type="radio" id="black" name="color" value="black">
+              <label for="black"><span></span></label>
+            </div>
+          </div>
+   
+        </div> -->
+   
+        <!-- Cable Configuration -->
+        <div class="cable-config">
+          <span>Product Details</span>
+   
+          <div class="cable-choose">
+            <button>22K</button>
+            <button>20.345 g</button>
+            <button>Modern Design</button>
+          </div>
+   
+          <a href="#">LIMITED STOCK AVAILABLE</a>
+        </div>
+      </div>
+   
+      <!-- Product Pricing -->
+      <div class="product-price">
+        <span>56,000.00</span>
+        <a href="cart.html" class="cart-btn">Add to cart</a>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+    <!-- <main class="container"> -->
  
         <!-- Left Column /Image -->
-        <div class="left-column">
+        <!-- yaha se comment hata do -->
+        <!-- <div class="left-column"> -->
           <!-- <img data-image="black" src="../assets/2.jpg" alt="">
-          <img data-image="blue" src="../assets/2.jpg" alt="">  -->
+          <img data-image="blue" src="../assets/2.jpg" alt="">  
           <img data-image="red" class="active" src="../assets/2.jpg" alt=""> 
-        </div>
+        </div>  --> 
        
         
         <!-- Right Column -->
-        <div class="right-column">
+        <!-- <div class="right-column">  -->
        
           <!-- Product Description -->
-          <div class="product-description">
+          <!-- <div class="product-description">
             <span>*Weight and Price may vary.</span>
             <h1 style="font-size: 40px;">Gold Bracelet</h1>
            <p>Elegant Bracelet in 22 Karat Pure Gold</p>
-          </div>
+          </div> --> 
        
           <!-- Product Configuration -->
-          <div class="product-configuration">
-       
-            <!-- Product Color
-            <div class="product-color">
-              <span>Color</span>
-       
-              <div class="color-choose">
-                <div>
-                  <input data-image="red" type="radio" id="red" name="color" value="red" checked>
-                  <label for="red"><span></span></label>
-                </div>
-                <div>
-                  <input data-image="blue" type="radio" id="blue" name="color" value="blue">
-                  <label for="blue"><span></span></label>
-                </div>
-                <div>
-                  <input data-image="black" type="radio" id="black" name="color" value="black">
-                  <label for="black"><span></span></label>
-                </div>
-              </div>
-       
-            </div> -->
-       
-            <!-- Cable Configuration -->
+          <!-- <div class="product-configuration">   
+            
             <div class="cable-config">
               <span>Product Details</span>
        
@@ -65,13 +120,61 @@
               <a href="#">LIMITED STOCK AVAILABLE</a>
             </div>
           </div>
-       
-          <!-- Product Pricing -->
+        
+           Product Pricing
           <div class="product-price">
             <span>1,59,245.00</span>
-            <a href="cart.html" class="cart-btn">Add to cart</a>
-          </div>
+            <a href="cart.html" class="cart-btn">Add to cart</a> 
+  
+          </div> 
         </div>
-      </main>
+      </main>  -->
+
+      <!-- <section class="container content-section">
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title" id="product">Album 1</span>
+                <img class="shop-item-image" src="../assets/2.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price" id="price">$12.99</span>
+                   
+                    <!-- <button class="btn btn-primary shop-item-button" type="button" onclick="document.location='../HTML/cart.html'">ADD TO CART</button> -->
+                     <!-- <div class="btn-primary shop-item-button"> 
+                      <button type="button">Add to cart</button> 
+                     </div> -->
+                   
+                     
+                    <!-- <button class="btn btn-primary shop-item-button" type="button" id="click">ADD TO CART</button>
+                  
+                  </div>
+            </div>
+           </div>
+        </section>  --> -->
+        <!-- <section class="container content-section">
+          <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+              <span class="cart-item cart-header cart-column">ITEM</span>
+              <span class="cart-price cart-header cart-column">PRICE</span>
+              <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+          </div>
+          <div class="cart-total">
+              <strong class="cart-total-title">Total</strong>
+              <span class="cart-total-price">Rs. 0</span>
+          </div>
+          <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+      </section>     -->
+      <!-- <script>
+function testJS() {
+        var b = document.getElementById('click').value,
+            url = '../HTML/cart.html' + encodeURIComponent(b);
+    
+        document.location.href = url;
+    }
+      </script> -->
+      
+     
 </body>
 </html>

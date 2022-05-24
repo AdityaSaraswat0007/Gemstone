@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title>Shopping Cart UI</title>
-	<link rel="stylesheet" type="text/css" href="../CSS/cart.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../CSS/cart.css"> -->
+	<link rel="stylesheet" href="../CSS/addtocart.css"> 
+	<!-- <link rel="stylesheet" href="../CSS/1_category.css"> -->
+    <script src="../JavaScript/addtocart.js" async></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
 </head>
 <body>
-   <div class="CartContainer">
+   <!-- <div class="CartContainer">
    	   <div class="Header">
    	   	<h3 class="Heading">Shopping Cart</h3>
    	   	<h5 class="Action">Remove all</h5>
@@ -63,7 +66,37 @@
    	 	<div class="total-amount">Rs.45,260.00</div>
    	 </div>
 		<!-- <a href="../payment-gateway-integration/paymentPage.html"></a> -->
-   	 <button class="button" >Checkout</button></div>
-   </div>
+   	 <!-- <button class="button" >Checkout</button></div>
+   </div> --> 
+   
+   <section class="container content-section">
+	<h2 class="section-header">CART</h2>
+	<div class="cart-row">
+		<span class="cart-item cart-header cart-column">ITEM</span>
+		<span class="cart-price cart-header cart-column">PRICE</span>
+		<span class="cart-quantity cart-header cart-column">QUANTITY</span>
+	</div>
+	<div class="cart-items">
+	</div>
+	<div class="cart-total">
+		<strong class="cart-total-title" >Total</strong>
+		<span class="cart-total-price" id="here">Rs. 0</span>
+	</div>
+	<a href="../payment-gateway-integration/paymentPage.html">
+	<button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</a>
+</section>   
+<script>
+	window.onload = function () {
+    var url = document.location.href,
+        params = url.split('?')[1].split('&'),
+        data = {}, tmp;
+    for (var i = 0, l = params.length; i < l; i++) {
+         tmp = params[i].split('=');
+         data[tmp[0]] = tmp[1];
+    }
+    document.getElementById('here').innerHTML = data.name;
+}
+</script>
 </body>
 </html>
